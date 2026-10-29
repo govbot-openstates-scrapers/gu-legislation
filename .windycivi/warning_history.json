@@ -320,5 +320,17 @@
     ],
     "failure_type": "S6_VALIDATION",
     "error_summary": "    report = do_update(args, other, juris) "
+  },
+  "2026-10-29": {
+    "warning_count": 3,
+    "error_count": 3,
+    "skipped_count": 0,
+    "sample_warnings": [
+      "19:19:07 WARNING openstates: no session provided, using active sessions: {'38th'}",
+      "19:19:35 WARNING openstates: no session provided, using active sessions: {'38th'}",
+      "19:20:01 WARNING openstates: no session provided, using active sessions: {'38th'}"
+    ],
+    "failure_type": "S6_VALIDATION",
+    "error_summary": "    report = do_update(args, other, juris) "
   }
 }
